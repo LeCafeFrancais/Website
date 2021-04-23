@@ -12,7 +12,7 @@ function toggle_light_mode() {
 }
 
 
-var app = documen.getElementById("bg-div");
+var app = document.getElementById("bg-div");
 if (localStorage.lightMode == "dark") {
     app.setAttribute("data-light-mode", "dark");
 }
