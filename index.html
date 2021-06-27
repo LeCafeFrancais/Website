@@ -13,14 +13,14 @@
     <meta property="og:image" content="assets/img/favicon.png">
     <meta property="og:locale" content="en_US">
     <link rel="shortcut icon" href="assets/img/favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <script src="assets/js/style.js"></script>
 </head>
 <body>
-<div id="bg-div" class="animated fadeIn delay-4s">
-    <input type="checkbox" id="switch" onclick=" toggle_light_mode()"/><label for="switch">Toggle</label>
+<div id="bg-div" class="animated fadeIn delay-4s" data-light-mode="dark">
+    <input type="checkbox" id="switch" onclick=" toggle_light_mode()"><label for="switch">Toggle</label>
     <div class="center">
         <h1 class="animated fadeInUp delay-4s">A public server, based on a french community.</h1>
     </div>
@@ -34,7 +34,7 @@
         <a href="https://github.com/ChillFR/">
             <img src="assets/img/github.png" class="social-logo" alt="GitHub Logo.">
         </a>
-        <a href="https://go.nordvpn.net/aff_c?offer_id=615&aff_id=56286&source=chillfr-website">
+        <a href="/nordvpn">
             <img src="assets/img/nordvpn.png" class="social-logo" alt="NordVPN Logo.">
         </a>
     </div>
